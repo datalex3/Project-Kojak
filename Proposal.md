@@ -13,4 +13,4 @@ This report could be useful for city planners and police departments to recogniz
 The crime data is provided by a dataset from Kaggle of Seattle police department crime incidents by latitude and longitude. This data will be cross-referenced with google street view.
 
 
-![Image of House](https://goo.gl/maps/LbqzMdSdD1x)
+![Image of House](https://github.com/datalex3/Project-Kojak/blob/master/googhouse.jpeg)
