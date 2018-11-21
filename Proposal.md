@@ -1,0 +1,16 @@
+# Project-Kojak 
+
+## How safe is my street?: 
+## Classifying images from Google Streetview to predict crime rates.
+
+Crime rates are perceived to be linked by the appearance of a neighbothood. By referencing demogrpahic crime rates with street view images, I would like to determine what factors are correlated with higher crime rates.
+While correlation is not causation, it could help reveal how the appearance of neighborhoods affects the crime rate or vice-versa.
+
+This report could be useful for city planners and police departments to recognize red flags for criminal activity.
+
+## DATA
+
+The crime data is provided by a dataset from Kaggle of Seattle police department crime incidents by latitude and longitude. This data will be cross-referenced with google street view.
+
+
+![Image of House](https://goo.gl/maps/LbqzMdSdD1x)
