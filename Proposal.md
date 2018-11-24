@@ -1,34 +1,40 @@
 # Project-Kojak 
 
-## How safe is my street?: 
-## Classifying images from Google Streetview to predict crime rates.
+## Google Street View Seattle Street Tree Survey:
+## Classifying Trees by Type Using Deep Learning
 
-Crime rates are perceived to be linked by the appearance of a neighbothood. By referencing demogrpahic crime rates with street view images, I would like to determine what factors are correlated with higher crime rates.
-While correlation is not causation, it could help reveal how the appearance of neighborhoods affects the crime rate or vice-versa.
+## Motivation
 
-This report could be useful for city planners and police departments to recognize red flags for criminal activity.
+The Pacific Northwest is known for its abundance and diversity of trees. For Seattlites, urban trees are an important part of the beauty and character of the city. 
+The city of Seattle spends large resources maintaining a database cataloging the locations and species of all of the cities street trees. This data is updated and verified sporadically depending on the time and resources dedicated. 
+A tremendous amount of time and money could be saved by utilizing Google Street view to update and verify the database. 
 
 ## DATA
 
-The crime data is provided by a dataset from Kaggle of Seattle police department crime incidents by latitude and longitude. This data will be cross-referenced with google street view.
-
-Example house at 47°41'05.0"N 122°21'52.8"W.
-
-Vehicle theft.
-
-
-![Image of House](https://github.com/datalex3/Project-Kojak/blob/master/googhouse.jpeg)
-
-
+A data set of the locations of over 14,000 trees in the public right-of-way. The trees are labled by genus and species and geocoded with latitude and longitude coordinates.
+The coordinates will be used to obtain Google street view images utilizing Google Maps API. 
 
 # Methodology
 
-Image classification utilizing convolutional neural network to find latent features that could either classify a street as safe/not safe, or produce a probabilty of an address experiencing crime.
-Locations will be referenced crime CSV file. 
+Convolusional Neural Network will be trained to identify the trees in the images from the labels. 
+Initially, the models will be trained to simply identify wheteher a tree is present or not.
+If successful, the next stage will attempt to distinguish between very disparate tree types (such as a pine tree versus a cherry tree). 
+If all is going well, a model will be developed to classify more detailed labels such as genus and possibly species.
+
+If the model is performing poorly, other sources of data may be incorporated to aid in training. Transfer learning from tree photographs may be helpful. 
+Trained models will be tested on the holdout test set. 
 
 # Tools
 
+Keras
 Pytorch
 Google Maps API
 Pixiedust
 Apache Spark
+AWS
+Pandas
+
+
+# Example
+
+"![]()"
