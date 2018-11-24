@@ -38,6 +38,6 @@ Pandas
 ## Example
 Genus: Acer Species: Acer rubrum Common Name: Red Maple
 
-"![](git_tree.jpg)"
+"![](street_tree.jpg)"
 
 [{"copyright": "\u00a9 Google, Inc.", "date": "2018-05", "location": {"lat": 47.666929, "lng": -122.3796749}, "pano_id": "z5tbD-qtA5hVmsimaxsgyw", "status": "OK", "_file": "gsv_0.jpg"}]
