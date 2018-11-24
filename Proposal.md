@@ -11,7 +11,7 @@ A tremendous amount of time and money could be saved by utilizing Google Street 
 
 ## DATA
 
-A data set of the locations of over 14,000 trees in the public right-of-way. The trees are labeled by genus and species and geocoded with latitude and longitude coordinates.
+A public data set of the locations of over 14,000 trees in the public right-of-way was obtained from the City of Seattle open data portal.  The trees are labeled by genus and species and geocoded with latitude and longitude coordinates.
 The coordinates will be used to obtain Google street view images utilizing Google Maps API. 
 
 ## Methodology
