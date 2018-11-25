@@ -25,14 +25,15 @@ If the model is performing poorly, other sources of data may be incorporated to 
 Trained models will be tested on the holdout test set. 
 
 ## Tools
-Tensorflow
-Keras
-Pytorch
-Google Maps API
-Pixiedust
-Apache Spark
-AWS
-Pandas
+* Tensorflow
+* Keras
+* OpenCV
+* Pytorch
+* Google Maps API
+* Pixiedust
+* Apache Spark
+* AWS
+* Pandas
 
 
 ## Example
